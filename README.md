@@ -1,61 +1,54 @@
-# Mohammad-Ridowan
-I'm Mohammad Ridowan,  Student,  an App Developer,  Website Developer,  Gamer,  And public Figure
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Official portfolio of Mohammad Ridowan - App Developer from Dhaka, Bangladesh.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mohammad Ridowan | Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f7f9fc;
-      color: #333;
-      padding: 40px;
-      line-height: 1.6;
-    }
-    .container {
+      font-family: Arial, sans-serif;
       max-width: 700px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      border-radius: 12px;
+      margin: 40px auto;
+      padding: 0 15px;
+      background: #f7f7f7;
+      color: #222;
     }
     h1 {
-      color: #1e90ff;
+      color: #0073e6;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.5em;
     }
     a {
-      color: #1e90ff;
+      color: #0073e6;
       text-decoration: none;
     }
-    .social a {
-      margin-right: 15px;
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact, .social {
+      margin-top: 20px;
+    }
+    .label {
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Mohammad Ridowan</h1>
-    <p><strong>Student | App Developer | Bet App Expert</strong></p>
-    <p>📍 Dhaka, Bangladesh</p>
+  <h1>Mohammad Ridowan</h1>
+  <p><span class="label">Father's Name:</span> S.M. Saiful Islam</p>
+  <p><span class="label">Mother's Name:</span> Ayesha Islam</p>
+  <p><span class="label">Religion:</span> Islam</p>
+  <p><span class="label">Profession:</span> App Developer, Website Developer, Gamer</p>
+  <p><span class="label">Education:</span> LLB Honours First Year</p>
+  <div class="contact">
+    <p><span class="label">Contact:</span> 01306288070</p>
+    <p><span class="label">Email:</span> <a href="mailto:rmohammod37@gmail.com">rmohammod37@gmail.com</a></p>
+  </div>
 
-    <h2>💼 Projects</h2>
-    <ul>
-      <li>✔ CK 444 Style Sports Betting App</li>
-      <li>✔ Aviator Crash Game with Wallet System</li>
-      <li>✔ Manual Payment Gateway (bKash/Nagad)</li>
-    </ul>
-
-    <h2>🔗 Social Media</h2>
-    <p class="social">
-      <a href="https://facebook.com/ridowan.mohammadhidoy" target="_blank">Facebook: https://www.facebook.com/share/16QmnShBsV/</a><br>
-      <a href="https://instagram.com/_rido_1_" target="_blank">Instagram: @_rido_1_</a>
-    </p>
-
-    <h2>📧 Contact</h2>
-    <p>Email: ridowan@email.com</p>
+  <div class="social">
+    <p><span class="label">GitHub:</span> <a href="https://github.com/ridowan37" target="_blank">github.com/ridowan37</a></p>
   </div>
 </body>
 </html>
